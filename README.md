@@ -20,18 +20,18 @@ Flag	Description
 -e	Display $ at the end of each line
 -s	Suppress repeated empty lines
 📌 Examples<br>
-````./mycat file.txt
-````
+```./mycat file.txt
+```
 Display contents of file.txt<br>
-````./mycat -n file.txt
-````
+```./mycat -n file.txt
+```
 Show file with line numbers<br>
-````./mycat -e file.txt
-````
+```./mycat -e file.txt
+```
 Show $ at the end of each line<br>
-````
+```
 ./mycat -nse file.txt
-````
+```
 Combine all supported options<br>
 🛠️ How It Works<br>
 This project avoids high-level I/O functions and instead uses system calls.<br>
