@@ -9,20 +9,21 @@ Lightweight C-based clone of the Unix cat utility using system calls like read()
 ⚙️ Built using open(), read(), and write()<br>
 🚀 Usage<br>
 Compile<br>
-gcc -o mycat mycat.c
+'''gcc -o mycat mycat.c
 Run<br>
-./mycat [options] file1 file2 ...
+./mycat [options] file1 file2 ...'''
+
 🧩 Options<br>
 Flag	Description
 -n	Number all output lines
 -e	Display $ at the end of each line
 -s	Suppress repeated empty lines
 📌 Examples<br>
-./mycat file.txt
+'''./mycat file.txt'''
 Display contents of file.txt<br>
-./mycat -n file.txt
+'''./mycat -n file.txt'''
 Show file with line numbers<br>
-./mycat -e file.txt
+'''./mycat -e file.txt'''
 Show $ at the end of each line<br>
 ./mycat -nse file.txt
 Combine all supported options<br>
